@@ -1,6 +1,6 @@
 <?php
 
-	$url      = "https://api.coinmarketcap.com/v1/ticker/lisk/" ;
+	$url      = "https://api.coinmarketcap.com/v1/ticker/lisk/" ; // Currently fetches Lisk data
 	$data     = file_get_contents($url);
 	$coindata = json_decode($data);
 
